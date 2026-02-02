@@ -1,0 +1,49 @@
+@import '../../assets/CSS/global.css';
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: var(--bg-navbar);
+}
+.Navbar h1{
+   
+    color: var(--text-main);
+    font-size: 40px;
+   margin-left: 130px;
+}
+.Navbar a{
+     text-decoration: none;
+}
+
+.Navbar h1:hover{
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.Navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.Navbar ul li {
+  list-style: none;
+}
+
+
+.Navbar ul li a svg {
+  
+  font-size: 30px;
+  color: var(--text-main);
+}
+
+.Navbar ul li a:hover svg {
+  color: var(--color-primary);
+}
+
+.Navbar ul li a.active svg {
+  color: var(--color-primary);
+}
