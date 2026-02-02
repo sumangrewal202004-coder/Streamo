@@ -1,0 +1,49 @@
+@import "../../assets/CSS/global.css";
+
+.user {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.user-card {
+  background-color: var(--bg-card);
+  height: 320px;
+  width: 100%; /* IMPORTANT */
+  border: 2px solid var(--color-primary);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.user-card p {
+  font-size: 20px;
+  margin-top: 20px;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.user-card h3 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.user-card img {
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+}
+
+.user-card:hover {
+  border: 4px solid var(--color-primary);
+}
+.user-link {
+  text-decoration: none;
+}

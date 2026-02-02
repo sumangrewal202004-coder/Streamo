@@ -1,0 +1,48 @@
+@import '../../assets/CSS/global.css';
+
+.messages {
+  width: 900px;
+  margin: 50px auto;
+  color: var(--text-main);
+}
+
+.messages h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.message-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: border 0.2s ease;
+}
+
+.message-card:hover {
+  border-color: var(--color-primary);
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message-header h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.message-header span {
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+.message-card p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: var(--text-main);
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --bg-main: #0f172a;
+  --bg-card: #1F2937;
+  --bg-navbar: #020617;
+  --color-primary: #3b82f6;
+  --color-secondary: #22c55e;
+  --color-accent: #facc15;
+  --text-main: #e5e7eb;
+  --text-muted: #9ca3af;
+  --text-light: #6b7280;
+  --color-like: #ef4444;
+  --color-error: #dc2626;
+  --border-color: #0a0e14;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: var(--bg-main);
+}

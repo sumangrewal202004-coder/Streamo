@@ -1,0 +1,57 @@
+@import '../../assets/CSS/global.css';
+
+.notifications {
+  width: 900px;
+  margin: 50px auto;
+  color: var(--text-main);
+}
+
+.notifications h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.notification-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--bg-card);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.notification-card:hover {
+  border-color: var(--color-primary);
+}
+
+.icon {
+  font-size: 22px;
+  color: var(--color-primary);
+}
+
+.notification-text p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.notification-text small {
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+
+.icon.like {
+  color: #e63946;
+}
+
+.icon.comment {
+  color: #4cc9f0;
+}
+
+.icon.follow {
+  color: #80ed99;
+}
